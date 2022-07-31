@@ -3,8 +3,8 @@ Dagens lagrummet.se blev efter 21 år förminskad till några länkar detta är 
 
 Visonen 1996 med lagrummet se [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem) och [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 
-Inom EU finns visionen att all rättsinformation skall kopplas ihop och där har ma skapa EDI
-
+Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publications Office of the European Union - [video](https://www.youtube.com/watch?v=iFD9FM5O3A0)
+* [European Legislation Identifier (ELI)](https://eur-lex.europa.eu/eli-register/about.html)
 
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
