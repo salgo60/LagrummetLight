@@ -31,3 +31,4 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
+* video ["Webinar on ELI Principles for the COVID-19 Crisis"](https://www.youtube.com/watch?v=doRH2MnsV2U)
