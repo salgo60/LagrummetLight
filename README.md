@@ -12,6 +12,10 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * [Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0)
 * [SVAR Domstolsverket](https://github.com/salgo60/open-data-examples/issues/2#issuecomment-1175362343) författningar från myndigheter saknas i lagrummet.se
   * hur andra länder jobbar med att koppla ihop EU och lagar se [Norge, Finland, Danmark](https://community.dataportal.se/topic/388/tema-linking-global-knowledge/10?_=1659329300880)
+* [Sveriges domstolar om lagrummet]https://www.domstol.se/en/om-webbplatsen-och-digitala-kanaler/lagrummet.se-och-rattsinformationssystemet/)
+* Konstig skrivelse att trots inget levereras så ["Regeringen konstaterar att rättsinformationssystemet i allt väsentligt nu fungerar i enlighet med de intentioner regeringen gett uttryck för i rättsinformationsförordningen (1999:175)
+](https://www.regeringen.se/49bb71/contentassets/533ebec34202421dae126840fdb9e8de/den-fortsatta-utvecklingen-av-rattsinformationssystemet)
+
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
