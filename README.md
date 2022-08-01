@@ -23,7 +23,8 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
        * **varför inte peka på vad som är fel....** det måste vara galet med **inkompetens i 100 myndigheter**, dålig projektledning, obefintlig fårmåga att anställa folk när man hasar runt i 15 år för massa miljoner....
        * _"Regeringskansliet, beslutade den 5 april 2000 att all information som skall ingå i rättsinformationssystemet i projektets andra del skulle märkas upp i märkningsspråket XML. "_
         
-          * **"krävas mycket mer arbete än som hade förutsatts med att analysera informationen"** det intressanta är att detta skrevs tror jag då EU prata om [ELI](https://eur-lex.europa.eu/eli-register/about.html) och att koppla ihop alla Europas lagar dvs. **100 ggr mer komplexct att se vilken Turkisk lag som motsvarar våra utlämningslagar**
+          * **"krävas mycket mer arbete än som hade förutsatts med att analysera informationen"** det intressanta är att detta skrevs tror jag då EU prata om [ELI](https://eur-lex.europa.eu/eli-register/about.html) och att koppla ihop alla Europas lagar dvs. **100 ggr mer komplext att se vilken Turkisk lag som motsvarar våra utlämningslagar**
+          * _"var att de verktyg som utnyttjades var alltför svåra att använda för att kunna tas i bruk på handläggarnivå."_ **läs 100 myndigheter kan inte bygga upp kompoetens på 15 år** vi behöver *Digitala aktörer iform av Myndigheter kan Google kan vi**
 * [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då man **trodde det skulle levereras** - **sanningen 3 år senare hav man upp**
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
