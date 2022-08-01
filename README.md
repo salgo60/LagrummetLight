@@ -38,3 +38,4 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * [Introduction to relationship among law, ethics and technology](https://www.youtube.com/watch?v=srj0Fx7zTaY)
 * [Legislation Editing Open Software](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation) - XML
    * [video demo](https://www.youtube.com/watch?v=SwQDVxtwmUs) 2021 okt 14
+   * [GITHUB](https://github.com/l-e-x/leos)
