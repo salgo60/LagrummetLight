@@ -39,3 +39,4 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * [Legislation Editing Open Software](https://joinup.ec.europa.eu/collection/justice-law-and-security/solution/leos-open-source-software-editing-legislation) - XML
    * [video demo](https://www.youtube.com/watch?v=SwQDVxtwmUs) 2021 okt 14
    * [GITHUB](https://github.com/l-e-x/leos)
+* [Legalxml](https://legalxml.wpengine.com)
