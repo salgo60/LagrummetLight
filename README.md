@@ -18,6 +18,12 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
   * "Rättsinformationssystemet bör innehålla samma slags information som det gör i dag" - **dvs. endast länkar?!?!?!**
   * "Systemet i sin nuvarande utformning har varit tillgängligt i cirka fyra år." - **dvs. inget levererat!!!*** av det [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175) sa
   * "Det saknas endast ett fåtal myndighetsföreskrifter. En strävan är emellertid att även dessa så snart som möjligt skall infogas i systemet **sanningen var att 11 år senare fattar man att det inte levererades** Google startade efter detta projekt startade....
+  * **Svårigheter med gemensam märkningsstandard **
+    *  _"Det är naturligtvis fortfarande ett starkt önskemål med ett system som gör det möjligt att söka i hela systemet från den gemensamma ingångssidan. Frågan är emellertid om det är realistiskt med ett decentraliserat system där varje organ som producerar rättsinformation också ansvarar för den egna informationen"_
+       * **varför inte peka på vad som är fel....** det måste vara galet med **inkompetens i 100 myndigheter**, dålig projektledning, obefintlig fårmåga att anställa folk när man hasar runt i 15 år för massa miljoner....
+       * _"Regeringskansliet, beslutade den 5 april 2000 att all information som skall ingå i rättsinformationssystemet i projektets andra del skulle märkas upp i märkningsspråket XML. "_
+        
+          * **"krävas mycket mer arbete än som hade förutsatts med att analysera informationen"** det intressanta är att detta skrevs tror jag då EU prata om [ELI](https://eur-lex.europa.eu/eli-register/about.html) och att koppla ihop alla Europas lagar dvs. **100 ggr mer komplexct att se vilken Turkisk lag som motsvarar våra utlämningslagar**
 * [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då man **trodde det skulle levereras** - **sanningen 3 år senare hav man upp**
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
