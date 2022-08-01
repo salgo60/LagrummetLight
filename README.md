@@ -7,7 +7,8 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * [European Legislation Identifier (ELI)](https://eur-lex.europa.eu/eli-register/about.html)
 
 ### Rättsinformationssystemet
-* Förstudie [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
+* **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
+* _**1999 September 4** Menlo Park, California, United States **Google starta so företag**_
 * SFS [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 * [Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0)
 * [SVAR Domstolsverket](https://github.com/salgo60/open-data-examples/issues/2#issuecomment-1175362343) författningar från myndigheter saknas i lagrummet.se
@@ -28,6 +29,12 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
           * "_regeringen är medveten om att den får genomföras på sikt och efter varje myndighets förutsättningar._" **våga ställ krav** - det är ett havererat Rättssystem vi har och det kastas bort miljoner skattepengar
           * "_Regeringen uttalade också att det i ett fullt utbyggt system borde vara möjligt att länka direkt mellan olika informationskällor_"...."_olika dokument i lagstiftningskedjan, exempelvis mellan ett utredningsbetänkande, en proposition, ett utskottsbetänkande och den aktuella lagen_" - känns som fel folk utreder var är visionen att **länka ihop alla EUs rättsinformationssystem**
 * [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då man **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
+
+#### [Citat Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0) sidan 4
+<img width="1067" alt="image" src="https://user-images.githubusercontent.com/14206509/182183237-628a04fe-43a9-4495-a123-d428f76aec12.png">
+
+<img width="1055" alt="image" src="https://user-images.githubusercontent.com/14206509/182183459-8659cb45-873e-44af-afbb-1a3d2a0d0510.png">. 
+
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
