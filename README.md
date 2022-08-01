@@ -8,7 +8,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
 ### Rättsinformationssystemet
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
-* _**1999 September 4** Menlo Park, California, United States **Google starta so företag**_
+* _**1999 September 4** Menlo Park, California, United States **Google starta som företag**_
 * SFS [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 * [Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0)
 * [SVAR Domstolsverket](https://github.com/salgo60/open-data-examples/issues/2#issuecomment-1175362343) författningar från myndigheter saknas i lagrummet.se
