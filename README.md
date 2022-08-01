@@ -15,6 +15,10 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * [Sveriges domstolar om lagrummet]https://www.domstol.se/en/om-webbplatsen-och-digitala-kanaler/lagrummet.se-och-rattsinformationssystemet/)
 * Konstig skrivelse att trots inget levereras så ["Regeringen konstaterar att rättsinformationssystemet i allt väsentligt nu fungerar i enlighet med de intentioner regeringen gett uttryck för i rättsinformationsförordningen (1999:175)
 ](https://www.regeringen.se/49bb71/contentassets/533ebec34202421dae126840fdb9e8de/den-fortsatta-utvecklingen-av-rattsinformationssystemet) - Stockholm den 28 oktober 2004
+  * "Rättsinformationssystemet bör innehålla samma slags information som det gör i dag" - **dvs. endast länkar?!?!?!**
+  * "Systemet i sin nuvarande utformning har varit tillgängligt i cirka fyra år." - **dvs. inget levererat!!!*** av det [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175) sa
+  * "Det saknas endast ett fåtal myndighetsföreskrifter. En strävan är emellertid att även dessa så snart som möjligt skall infogas i systemet **sanningen var att 11 år senare fatta man att det unte lkevererades** Google startade efter detta projekt starta....
+* video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då man **trodde det skulle levereras** - **sanningen 3 år senare hav man upp**
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
