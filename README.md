@@ -34,3 +34,5 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * video ["Discover ELI, the European Legislation Identifier"](https://www.youtube.com/watch?v=BOB_Q7sh0xI)
 
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097557-86038517-7d1b-49e4-9d64-3fd7a7b31f40.png"><img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097440-eed69a31-1884-4a79-b478-032204b4a93a.png"><img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097249-d3d9d68d-05b3-44bd-b390-c5aad360dd8b.png">
+
+* [Introduction to relationship among law, ethics and technology](https://www.youtube.com/watch?v=srj0Fx7zTaY)
