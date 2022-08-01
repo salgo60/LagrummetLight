@@ -11,7 +11,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
 * SFS [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 * [Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0)
-* [SVAR Domstolsverket](https://github.com/salgo60/open-data-examples/issues/2#issuecomment-1175362343) författningar från myndigheter saknas i lagrummet.se
+* 2022 [SVAR Domstolsverket](https://github.com/salgo60/open-data-examples/issues/2#issuecomment-1175362343) författningar från myndigheter saknas i lagrummet.se
   * hur andra länder jobbar med att koppla ihop EU och lagar se [Norge, Finland, Danmark](https://community.dataportal.se/topic/388/tema-linking-global-knowledge/10?_=1659329300880)
 * [Sveriges domstolar om lagrummet](https://www.domstol.se/en/om-webbplatsen-och-digitala-kanaler/lagrummet.se-och-rattsinformationssystemet/)
 * Konstig skrivelse att trots inget levereras så ["Regeringen konstaterar att rättsinformationssystemet i allt väsentligt nu fungerar i enlighet med de intentioner regeringen gett uttryck för i rättsinformationsförordningen (1999:175)
