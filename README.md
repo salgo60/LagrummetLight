@@ -4,8 +4,7 @@ Dagens [lagrummet.se](https://lagrummet.se/lagrummet/rattsinformation/myndighete
 Visonen 1996 med lagrummet se [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem) och [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 
 Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publications Office of the European Union - [video](https://www.youtube.com/watch?v=iFD9FM5O3A0)
-* [European Legislation Identifier (ELI)](https://eur-lex.europa.eu/eli-register/about.html)
-
+* [European Legislation Identifier (ELI)](https://eur-lex.europa.eu/eli-register/about.html) - is a system to make legislation available online in a standardised format, so that it can be accessed, exchanged and reused across borders. This initiative, taken jointly by EU countries and institutions, is enshrined in the Council Conclusions of 6 November 2017 on the European Legislation Identifier [(2017/C 441/05)](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv%3AOJ.C_.2017.441.01.0008.01.ENG&toc=OJ%3AC%3A2017%3A441%3ATOC)
 ### Rättsinformationssystemet - Sverige
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
 * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
