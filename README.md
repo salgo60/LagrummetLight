@@ -43,7 +43,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
   * Staffans graduate theses "[Towards a theory of jurisprudential relevance ranking Using link analysis on EU case law](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.3802&rep=rep1&type=pdf)" och "[Legal information system and the semantic web](https://web.archive.org/web/20160824172252/http://blog.tomtebo.org/wp-content/uploads/2011/08/Legal_information_systems_and_the_Semantic_Web.pdf)"
 * **2010 oktober** [Status för rättsinformationsprojektet](https://pt.slideshare.net/stafmal/status-fr-rttsinformationsprojektet)
 * **2010 nov 25** Demokväll med rättsinformationssystemet [slides](https://pt.slideshare.net/stafmal/rttsinformationssystemet) - domstolsverket
-* [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då man **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
+* [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då Helene Lundgren, Domstolsverket **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
 * **2016 dec 13** [sista incheckningen GITHUB](https://github.com/rinfo/rdl/commit/21131dde010476c7c090e85a4ec50fb4738fc261) att man **ger upp**
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
@@ -58,7 +58,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
 * video ["Discover ELI, the European Legislation Identifier"](https://www.youtube.com/watch?v=BOB_Q7sh0xI)
-
+   * status ELI Europa
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097557-86038517-7d1b-49e4-9d64-3fd7a7b31f40.png"><img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097440-eed69a31-1884-4a79-b478-032204b4a93a.png"><img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097249-d3d9d68d-05b3-44bd-b390-c5aad360dd8b.png">
 
 * [Introduction to relationship among law, ethics and technology](https://www.youtube.com/watch?v=srj0Fx7zTaY)
