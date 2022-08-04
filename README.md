@@ -15,6 +15,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 >>c) ELI permits a greater and faster exchange of data: when these metadata are embedded in the respective webpages of the Official Journals and Legal Gazettes or legal information systems, information can be exchanged automatically and efficiently, thanks to the benefits from the emerging architecture of the semantic web, which enables information to be directly processed by computers and humans alike (‘[ELI pillar 3](https://op.europa.eu/en/web/eu-vocabularies/eli)’).
 </details>
 
+# Det Svenska Rättsinformationssystemets vision och "utveckling"
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
 * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
 * SFS [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
