@@ -18,7 +18,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 # Det svenska Rättsinformationssystemets vision och "utveckling"
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
 > * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
-* SFS [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
+* [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 * [Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0)
 * **2000 oktober** Seminarium om ”[Rättsinformation under 2000-talet](http://www.itkommissionen.se/dynamaster/file_archive/020124/cb7e8cf0c8116a36643d62a0451a0538/1_2001%20R%e4ttsinformation%20under%202000-talet%20(SOU%202001_71).pdf) - Nuläge i Sverige och Europa, trender och policy"
 * 2022 [SVAR Domstolsverket](https://github.com/salgo60/open-data-examples/issues/2#issuecomment-1175362343) författningar från myndigheter saknas i lagrummet.se
@@ -44,7 +44,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * **2010 oktober** [Status för rättsinformationsprojektet](https://pt.slideshare.net/stafmal/status-fr-rttsinformationsprojektet)
 * **2010 nov 25** Demokväll med rättsinformationssystemet [slides](https://pt.slideshare.net/stafmal/rttsinformationssystemet) - domstolsverket
 * [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då Helene Lundgren, Domstolsverket **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
-* **2016 dec 13** [sista incheckningen GITHUB](https://github.com/rinfo/rdl/commit/21131dde010476c7c090e85a4ec50fb4738fc261) att man **ger upp**
+* **2016 dec 13** [sista incheckningen GITHUB](https://github.com/rinfo/rdl/commit/21131dde010476c7c090e85a4ec50fb4738fc261) att Domstolsverket **ger upp** trots att uppdraget i [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175) finns kvar och ej levererat
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
 
