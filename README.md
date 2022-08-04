@@ -8,7 +8,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 ><details><summary>2017/C 441/05 14. visionen</summary>
 > 14. ELI shall guarantee cost-effective public access to reliable and up-to-date legislation and is subject to voluntary and gradual introduction. To this end:
 >
->>a) [ELI](https://eur-lex.europa.eu/eli-register/about.html) creates a unique identifier for the legislation, which is readable by both humans and computers, and which is compatible with existing technological standards (‘[ELI pillar 1](https://op.europa.eu/en/web/eu-vocabularies/eli)');
+>>a) [ELI](https://eur-lex.europa.eu/eli-register/about.html) creates an unique identifier for the legislation, which is readable by both humans and computers, and which is compatible with existing technological standards (‘[ELI pillar 1](https://op.europa.eu/en/web/eu-vocabularies/eli)');
 >
 >>b) [ELI](https://eur-lex.europa.eu/eli-register/about.html) proposes a set of metadata elements to describe legislation in compliance with a reference ontology (‘([ELI pillar 2](https://op.europa.eu/en/web/eu-vocabularies/eli)’);
 >
