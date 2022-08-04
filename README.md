@@ -65,4 +65,4 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
    * [video demo](https://www.youtube.com/watch?v=SwQDVxtwmUs) 2021 okt 14
    * [GITHUB](https://github.com/l-e-x/leos)
 * [Legalxml](https://legalxml.wpengine.com)
-* [LI/XML is an encoding of ELI metadata in an XML schema (XSD)](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eli_xml)
+* ELI/XML is an encoding of ELI metadata in an [XML schema (XSD)](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eli_xml)
