@@ -14,6 +14,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 >
 >>c) [ELI](https://eur-lex.europa.eu/eli-register/about.html) permits a greater and faster exchange of data: when these metadata are embedded in the respective webpages of the Official Journals and Legal Gazettes or legal information systems, information can be exchanged automatically and efficiently, thanks to the benefits from the emerging architecture of the semantic web, which enables information to be directly processed by computers and humans alike (‘[ELI pillar 3](https://op.europa.eu/en/web/eu-vocabularies/eli)’).
 </details>
+
   * [ELI dataset description](https://eur-lex.europa.eu/content/eli-register/ELI_dataset_description-EN.pdf)
 
 # Det svenska Rättsinformationssystemets vision och "utveckling"
