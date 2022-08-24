@@ -45,7 +45,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
   * Staffans graduate theses "[Towards a theory of jurisprudential relevance ranking Using link analysis on EU case law](https://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.397.3802&rep=rep1&type=pdf)" och "[Legal information system and the semantic web](https://web.archive.org/web/20160824172252/http://blog.tomtebo.org/wp-content/uploads/2011/08/Legal_information_systems_and_the_Semantic_Web.pdf)"
 * **2010 oktober** [Status för rättsinformationsprojektet](https://pt.slideshare.net/stafmal/status-fr-rttsinformationsprojektet)
 * **2010 nov 25** Demokväll med rättsinformationssystemet [slides](https://pt.slideshare.net/stafmal/rttsinformationssystemet) - domstolsverket
-* [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då Helene Lundgren, Domstolsverket **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
+* [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då Helene Lundgren(tel. 036 44 22 141), Domstolsverket **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
 * **2016 dec 13** [sista incheckningen GITHUB](https://github.com/rinfo/rdl/commit/21131dde010476c7c090e85a4ec50fb4738fc261) att Domstolsverket **ger upp** trots att uppdraget i [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175) finns kvar och ej levererat
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
