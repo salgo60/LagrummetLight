@@ -1,5 +1,5 @@
 # Lagrummet Light 
-Dagens [lagrummet.se](https://lagrummet.se/lagrummet/rattsinformation/myndigheters-foreskrifter) blev efter 21 år förminskat till några länkar detta är en tanke att se om vi kan samla metadata om alla myndigheters författningar, även för upphävda myndigheter i Wikidata. Tanken är i steg 1 att bara lyfta in metadata till [Wikidata](https://www.wikidata.org/wiki/Wikidata:WikiProject_Sweden/Swedish_Riksdag_documents) eller en [Wikibase](https://www.wikibase.cloud/)
+Dagens [lagrummet.se](https://lagrummet.se/lagrummet/rattsinformation/myndigheters-foreskrifter) blev efter 21 år förminskat till några länkar. 
 
 Visonen 1996 med lagrummet se [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem) och [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 
