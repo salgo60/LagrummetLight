@@ -17,6 +17,8 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
   * [ELI dataset description](https://eur-lex.europa.eu/content/eli-register/ELI_dataset_description-EN.pdf)
 
+* [Riksdagens Öppna data skuggbacklog](https://github.com/salgo60/Wikidata_riksdagen-corpus/issues/50) där SFS etc. borde kopplas ihop med ELI se [#22](https://github.com/salgo60/Wikidata_riksdagen-corpus/issues/75)
+
 # Det svenska Rättsinformationssystemets vision och "utveckling"
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
 > * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
