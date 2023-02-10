@@ -50,6 +50,11 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 * **2010 oktober** [Status för rättsinformationsprojektet](https://pt.slideshare.net/stafmal/status-fr-rttsinformationsprojektet)
 * **2010 nov 25** Demokväll med rättsinformationssystemet [slides](https://pt.slideshare.net/stafmal/rttsinformationssystemet) - domstolsverket
 * [video 2013 April 12](https://www.youtube.com/watch?v=RV9mtFhUZ64) då Helene Lundgren(tel. 036 44 22 141), Domstolsverket **trodde det skulle levereras** - **sanningen 3 år senare gav man upp**
+
+* [tweet May 14, 2013](https://twitter.com/staffanm/status/334217889315966977?s=20&t=Zy7XvVRRH1YwQaWZj5jxwA)
+
+[<img width="620" alt="image" src="https://user-images.githubusercontent.com/14206509/218080152-e7026b1c-6d1a-4703-a396-a42924471433.png">](https://twitter.com/staffanm/status/334217889315966977?s=20&t=Zy7XvVRRH1YwQaWZj5jxwA)
+
 * **2016 dec 13** [sista incheckningen GITHUB](https://github.com/rinfo/rdl/commit/21131dde010476c7c090e85a4ec50fb4738fc261) att Domstolsverket **ger upp** trots att uppdraget i [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175) finns kvar och ej levererat
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
