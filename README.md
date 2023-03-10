@@ -79,3 +79,8 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
    * [GITHUB](https://github.com/l-e-x/leos)
 * [Legalxml](https://legalxml.wpengine.com)
 * ELI/XML is an encoding of ELI metadata in an [XML schema (XSD)](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eli_xml)
+
+### Frågan går till chatGPT
+* https://datafit.ai/prompt/13472
+
+<img width="1038" alt="image" src="https://user-images.githubusercontent.com/14206509/224190447-7b583c2e-50a5-4913-a94a-dd50db0c57f0.png">
