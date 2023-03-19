@@ -70,7 +70,6 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
 * video ["Discover ELI, the European Legislation Identifier"](https://www.youtube.com/watch?v=BOB_Q7sh0xI)
    * status ELI Europa
-* [A love letter to the Parliamentary Counsel of the world](https://hamish.dev/a-love-letter-to-the-parliamentary-counsel-of-the-world]
    
 <img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097557-86038517-7d1b-49e4-9d64-3fd7a7b31f40.png"><img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097440-eed69a31-1884-4a79-b478-032204b4a93a.png"><img width="300" alt="image" src="https://user-images.githubusercontent.com/14206509/182097249-d3d9d68d-05b3-44bd-b390-c5aad360dd8b.png">
 
@@ -80,6 +79,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
    * [GITHUB](https://github.com/l-e-x/leos)
 * [Legalxml](https://legalxml.wpengine.com)
 * ELI/XML is an encoding of ELI metadata in an [XML schema (XSD)](https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/eli_xml)
+* [A love letter to the Parliamentary Counsel of the world](https://hamish.dev/a-love-letter-to-the-parliamentary-counsel-of-the-world)
 
 ### Frågan går till chatGPT
 * https://datafit.ai/prompt/13472
