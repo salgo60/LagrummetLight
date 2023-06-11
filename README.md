@@ -65,7 +65,8 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
       * Regeringskansliet svarar att dom efter 6 års funderade och 22 år in i projektet inte vet när dom kommer att leverera nästa steg 
       * Regeringskansliet har inte ett **ärendenummer/projektnummer** dom kan dela med mig utan kallar det "**internt arbete**"
       * Regeringskansliet efter 6 år finns inga delresultat publicerade --> **projekt på drift**
-      * Regeringskansliet vet inte om Sverige skall bli del av [ELI vet dom inget om]([sss](https://eur-lex.europa.eu/eli-register/implementation.html)) och kan inte peka på vem som driver detta eller ge mig ett **ärendenummer/projektnummer**
+      * Regeringskansliet vet inte om Sverige skall [bli del av ELI]([sss](https://eur-lex.europa.eu/eli-register/implementation.html)) och kan inte peka på vem som driver detta eller ge mig ett **ärendenummer/projektnummer**
+         * lyssna på fråga personer som arbetar med ELI om dom vet status Sverige - dom vill ha någon att kontakta i Sverige och vet inte hur
 
 ![image](https://github.com/salgo60/LagrummetLight/assets/14206509/113402f5-f090-4bca-91b7-bf7d9db14339)
 
