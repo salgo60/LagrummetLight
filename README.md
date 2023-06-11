@@ -59,7 +59,13 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
 
-* **2022 dec** [Fråga Regeringskansliet hur går det med SFS 1999:175](https://github.com/salgo60/LagrummetLight/issues/3) - status dom vet unte att dom utreder det utan skickar vidare återkommer efter en vecka att dom inte kan svara
+* **2022 dec** [Fråga Regeringskansliet hur går det med SFS 1999:175](https://github.com/salgo60/LagrummetLight/issues/3) - status 
+  * dom visste inte att dom utreder det utan skickar den vidare till Domstilsverket
+    * återkommer efter en vecka då Domstolsverket förklarat för dom att Regeringskansliet äger frågan
+      * Regeringskansliet svarar att dom efter 6 års funderade och 22 år in i projektet inte vet när dom kommer att leverera nästa steg 
+      * Regeringskansliet har inte ett **ärendenummer/projektnummer** dom kan dela med mig utan kallar det "**internt arbete**"
+      * Regeringskansliet efter 6 år finns inga delresultat publicerade --> **projekt på drift**
+      * Regeringskansliet vet inte om Sverige skall bli del av [ELI vet dom inget om]([sss](https://eur-lex.europa.eu/eli-register/implementation.html)) och kan inte peka på vem som driver detta eller ge mig ett **ärendenummer/projektnummer**
 
 ![image](https://github.com/salgo60/LagrummetLight/assets/14206509/113402f5-f090-4bca-91b7-bf7d9db14339)
 
