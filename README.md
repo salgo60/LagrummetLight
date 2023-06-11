@@ -63,7 +63,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
 ![image](https://github.com/salgo60/LagrummetLight/assets/14206509/113402f5-f090-4bca-91b7-bf7d9db14339)
 
-
+<img width="673" alt="image" src="https://github.com/salgo60/LagrummetLight/assets/14206509/8ceb279d-801f-4338-b36d-13efc8f58800">
 
 #### [Citat Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0) sidan 4
 <img width="1067" alt="image" src="https://user-images.githubusercontent.com/14206509/182183237-628a04fe-43a9-4495-a123-d428f76aec12.png">
