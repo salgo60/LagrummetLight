@@ -59,6 +59,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
 
+* **2022 dec** [Fråga Regeringskansliet hur går det med SFS 1999:175](https://github.com/salgo60/LagrummetLight/issues/3) - status dom vet unte att dom utreder det utan skickar vidare återkommer efter en vecka att dom inte kan svara
 
 #### [Citat Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0) sidan 4
 <img width="1067" alt="image" src="https://user-images.githubusercontent.com/14206509/182183237-628a04fe-43a9-4495-a123-d428f76aec12.png">
