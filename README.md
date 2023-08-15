@@ -24,6 +24,19 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
 * [Riksdagens Öppna data skuggbacklog](https://github.com/salgo60/Wikidata_riksdagen-corpus/issues/50) där SFS etc. borde kopplas ihop med ELI se [#22](https://github.com/salgo60/Wikidata_riksdagen-corpus/issues/75)
 
+# Intressanta siffror från DS 1998:10 vad kostar dagens tomteverkstad bilaga 3 sidan 166 
+Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.regeringen.se/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem/)- förstudie till [SFS 1999:175](https://github.com/salgo60/LagrummetLight/issues/3)
+
+## 12 Kostnader och vinster sid 153 - år 1998 bara för Rättsinformation..
+
+<img width="776" alt="image" src="https://github.com/salgo60/DiggUptime/assets/14206509/7bc44843-ee98-45b8-86ce-0ce5d5a21e20">
+
+<img width="776" alt="image" src="https://github.com/salgo60/DiggUptime/assets/14206509/ebb42354-d637-450f-9dd9-08a7b03cdc13">
+
+<img width="718" alt="image" src="https://github.com/salgo60/DiggUptime/assets/14206509/09f1bacb-fd25-4626-8c1c-2ecddb076e94">
+
+<img width="727" alt="image" src="https://github.com/salgo60/DiggUptime/assets/14206509/fed1062d-b792-4d2a-86f3-bf887b52783a">
+
 # Det svenska Rättsinformationssystemets vision och "utveckling"
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
 > * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
