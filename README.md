@@ -24,7 +24,7 @@ Inom EU finns visionen att all rättsinformation skall kopplas ihop se Publicati
 
 * [Riksdagens Öppna data skuggbacklog](https://github.com/salgo60/Wikidata_riksdagen-corpus/issues/50) där SFS etc. borde kopplas ihop med ELI se [#22](https://github.com/salgo60/Wikidata_riksdagen-corpus/issues/75)
 
-# Intressanta siffror från DS 1998:10 vad kostar dagens tomteverkstad bilaga 3 sidan 166 
+# Intressanta siffror från DS 1998:10 vad kostar dagens tomteverkstad årligen bilaga 3 sidan 166 dvs. miltiplicera detta med 22 år
 Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.regeringen.se/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem/)- förstudie till [SFS 1999:175](https://github.com/salgo60/LagrummetLight/issues/3)
 
 ## 12 Kostnader och vinster sid 153 - år 1998 bara för Rättsinformation..
