@@ -90,7 +90,7 @@ Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.re
 
 <img width="673" alt="image" src="https://github.com/salgo60/LagrummetLight/assets/14206509/8ceb279d-801f-4338-b36d-13efc8f58800">
 
-* **2023 dec 08 OMSTART efter25 år** Diarienummer: Ju2023/02684 [Uppdrag om en säker och effektiv tillgång till rättsinformation](https://github.com/salgo60/LagrummetLight/issues/3#issuecomment-2120750629
+* **2023 dec 08 OMSTART efter 25 år** Diarienummer: Ju2023/02684 [Uppdrag om en säker och effektiv tillgång till rättsinformation](https://github.com/salgo60/LagrummetLight/issues/3#issuecomment-2120750629
 ) - Regeringen ger Domstolsverket i uppdrag att analysera hur det offentliga rättsinformationssystemet kan utvecklas.
 
 <img width="840" alt="image" src="https://github.com/salgo60/LagrummetLight/assets/14206509/3dcab604-cfeb-4e1b-8a13-e3c558940264">
