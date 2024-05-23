@@ -41,7 +41,7 @@ Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.re
 
 # Det svenska Rättsinformationssystemets vision och "utveckling"
 * **1996 November 28** start förstudie Rättsinformationssystemet [Ds 1998:10](https://www.regeringen.se/49bb67/contentassets/32378143627e4b6da8e9e196773bedbe/ett-offentligt-rattsinformationssystem)
-> * _**1999 September 4** Menlo Park, California, United States **[Google starta som företag](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
+> * _**1998 September 4** Menlo Park, California, United States **[företaget Google starta som företag 4 september 1998](https://theapopkavoice.com/stories/on-this-day-in-history-google-is-incorporated,8176)**_
 * [SFS 1999:175 Rättsinformationsförordning](https://www.riksdagen.se/sv/dokument-lagar/dokument/svensk-forfattningssamling/rattsinformationsforordning-1999175_sfs-1999-175)
 * [Konstitutionsutskottets betänkande 2004/05:KU2](https://data.riksdagen.se/fil/4849D3D8-C096-4BD5-A5D0-7D09114F38B0)
 * **2000 oktober** Seminarium om ”[Rättsinformation under 2000-talet](http://www.itkommissionen.se/dynamaster/file_archive/020124/cb7e8cf0c8116a36643d62a0451a0538/1_2001%20R%e4ttsinformation%20under%202000-talet%20(SOU%202001_71).pdf) - Nuläge i Sverige och Europa, trender och policy"
