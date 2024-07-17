@@ -1,5 +1,8 @@
 [![DOI](https://zenodo.org/badge/519715564.svg)](https://zenodo.org/doi/10.5281/zenodo.11183692)
 
+<img width="1340" alt="image" src="https://github.com/user-attachments/assets/1f1d69db-44d8-4e43-bb98-6e4297a99ab9">
+
+
 # Lagrummet Light 
 
 <img width="250" alt="image" src="https://user-images.githubusercontent.com/14206509/208678322-f73e29c1-6721-45fd-a9b8-9c839b40bb46.png"><img width="250" alt="image" src="https://user-images.githubusercontent.com/14206509/208678533-05d45959-09df-46ad-a1e5-110e2b06a54d.png"><img width="250" alt="image" src="https://user-images.githubusercontent.com/14206509/208678832-d11fdd3f-25f4-4c40-bb2f-e20eae823e36.png">
