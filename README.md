@@ -104,6 +104,8 @@ Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.re
 <img width="1055" alt="image" src="https://user-images.githubusercontent.com/14206509/182183459-8659cb45-873e-44af-afbb-1a3d2a0d0510.png">. 
 
 ### Tjänstemannaansvar - skulle detta förändra att saker inte levereras på > 20 år
+* #[9 ChatGPT: Är tjänstemannaansvar lösningen?](https://github.com/salgo60/LagrummetLight/issues/9)
+
 SFS 1999:175 innebär enbart att 100 myndigheter skell leverera sina egna författningar på ett gemensamt format dvs. det 
 finns iunget externt som påverkar om en myndighet levererar utan det är enbart egen komptenes eller inkompetens.
 
