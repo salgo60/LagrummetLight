@@ -103,6 +103,21 @@ Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.re
 
 <img width="1055" alt="image" src="https://user-images.githubusercontent.com/14206509/182183459-8659cb45-873e-44af-afbb-1a3d2a0d0510.png">. 
 
+### Tjänstemannaansvar - skulle detta förändra att saker inte levereras på > 20 år
+SFS 1999:175 innebär enbart att 100 myndigheter skell leverera sina egna författningar på ett gemensamt format dvs. det 
+finns iunget externt som påverkar om en myndighet levererar utan det är enbart egen komptenes eller inkompetens.
+
+#### ChatGPT om tjänstemannaansvar och projekt som SFS 1999:175
+
+<img width="916" alt="image" src="https://github.com/user-attachments/assets/7ca48a24-297e-45cc-8617-d90802e600e9">
+
+<img width="738" alt="image" src="https://github.com/user-attachments/assets/b88aa86e-d658-4e2a-84a8-4896028c0739">
+
+* [länk chatGPT](https://chatgpt.com/share/bfe17888-9bf6-451d-b6e6-5242d927dd03)
+
+<img width="1043" alt="image" src="https://github.com/user-attachments/assets/83b10eb8-8720-49d5-9462-d1889b0485ca">
+
+
 ### Misc
 * [European Law Institute](https://www.europeanlawinstitute.eu/about-eli/)
   * [Europeiska rättsinstitutet](https://e-justice.europa.eu/178/SV/european_law_institute)
