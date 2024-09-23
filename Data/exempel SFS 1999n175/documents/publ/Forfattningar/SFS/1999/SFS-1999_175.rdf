@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#">
+
+  <Forordning rdf:about="http://rinfo.lagrummet.se/publ/sfs/1999:175">
+    <!-- identifiering -->
+    <forfattningssamling rdf:resource="http://rinfo.lagrummet.se/serie/fs/sfs"/>
+    <arsutgava>1999</arsutgava>
+    <lopnummer>175</lopnummer>
+    <dct:identifier>SFS 1999:175</dct:identifier>
+    <dct:title xml:lang="sv">Rättsinformationsförordning</dct:title>
+    <!-- tidsaspekter -->
+    <utfardandedatum rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-03-25</utfardandedatum>
+    <ikrafttradandedatum rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-05-01</ikrafttradandedatum>
+    <utkomFranTryck rdf:datatype="http://www.w3.org/2001/XMLSchema#date">1999-04-13</utkomFranTryck>
+    <!-- ursprung -->
+    <dct:publisher rdf:resource="http://rinfo.lagrummet.se/org/regeringskansliet"/>
+    <beslutadAv rdf:resource="http://rinfo.lagrummet.se/org/regeringskansliet"/>
+    <!-- dokumentkopplingar -->
+    <forarbete rdf:resource="http://rinfo.lagrummet.se/publ/ds/1998:10"/>
+    <upphaver rdf:resource="http://rinfo.lagrummet.se/publ/sfs/1980:628"/>
+    <!-- dokumentsammansätting -->
+    <overgangsbestammelsetext xml:lang="sv">Skyldigheten att genom rättsinformationssystemet göra sådan information som avses i 3–8 §§ tillgänglig inträder den 1 juli 2000. För länsstyrelser inträder dock skyldigheten den 1 januari 2001.</overgangsbestammelsetext>
+  </Forordning>
+
+</rdf:RDF>

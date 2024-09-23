@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xmlns:dct="http://purl.org/dc/terms/"
+      xml:lang="sv">
+
+  <id>tag:slv.se,2009:rinfo:feed</id>
+  <title>Livsmedelsverkets författningssamling</title>
+  <updated>2009-01-23T12:42:32Z</updated>
+  <author>
+    <name>Livsmedelsverkets</name>
+    <uri>http://www.slv.se/</uri>
+    <email>juridik@slv.se</email>
+  </author>
+  <link href="https://www.slv.se/rattsinformation/feed/index.atom" rel="self"/>
+
+  <entry>
+    <id>http://rinfo.lagrummet.se/publ/livsfs/2006:22</id>
+    <updated>2008-08-21T00:00:00.000Z</updated>
+    <published>2008-08-21T00:00:00.000Z</published>
+    <title>Livsmedelsverkets föreskrifter (LIVSFS 2006:22) om bekämpningsmedelsrester i livsmedel</title>
+    <summary></summary>
+    <content src="https://www.slv.se/upload/dokument/lagstiftning/2005-2006/2006_22.pdf"
+             type="application/pdf"
+             hash="md5:d9e80c3be6905c44dd2f0c637bbac97c"/>
+    <link rel="alternate" href="https://www.slv.se/rattsinformation/getdata/id=2006-22"
+          type="application/rdf+xml"
+          length="2298" hash="md5:b8dbdb77b3226dd06475786f117a510b"/>
+    <link rel="enclosure" href="http://www.slv.se/upload/lagstiftning/2005-2006/2006_22bil1.pdf"
+          type="application/pdf"
+          dct:isFormatOf="http://rinfo.lagrummet.se/publ/livsfs/2006:22#bilaga_1"
+          length="1168037" hash="md5:321d5e327433b0099f8eb5768fcf28aa"/>
+  </entry>
+</feed>

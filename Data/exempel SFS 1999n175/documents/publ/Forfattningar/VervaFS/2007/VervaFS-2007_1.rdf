@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+         xmlns:dct="http://purl.org/dc/terms/"
+         xmlns="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#">
+
+  <Myndighetsforeskrift rdf:about="http://rinfo.lagrummet.se/publ/vervafs/2007:1">
+
+    <!-- identifiering -->
+    <forfattningssamling rdf:resource="http://rinfo.lagrummet.se/serie/fs/vervafs"/>
+    <arsutgava>2007</arsutgava>
+    <lopnummer>1</lopnummer>
+    <dct:identifier>VERVAFS 2007:1</dct:identifier>
+    <dct:title xml:lang="sv">Vervas föreskrifter om statliga myndigheters elektroniska fakturor;</dct:title>
+
+    <!-- tidsaspekter -->
+    <beslutsdatum rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-12</beslutsdatum>
+    <ikrafttradandedatum rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-01</ikrafttradandedatum>
+    <utkomFranTryck rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-01-16</utkomFranTryck>
+
+    <!-- ursprung -->
+    <dct:publisher rdf:resource="http://rinfo.lagrummet.se/org/verva"/>
+    <beslutadAv rdf:resource="http://rinfo.lagrummet.se/org/verva"/>
+
+    <!-- dokumentkopplingar -->
+    <!-- TODO: koppla till paragraf och/eller dokument? -->
+    <bemyndigande>
+        <Forfattningsreferens>
+            <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2003:770"/>
+            <angerParagrafnummer>1</angerParagrafnummer>
+        </Forfattningsreferens>
+    </bemyndigande>
+    <!-- TODO: hänvisning om "undantag i det enskilda fallet":
+      rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2003:770#p_4"
+    -->
+
+    <!-- dokumentsammansätting -->
+    <paragraf>
+      <Paragraf rdf:about="http://rinfo.lagrummet.se/publ/vervafs/2007:1#p_1">
+        <paragrafnummer>1</paragrafnummer>
+      </Paragraf>
+    </paragraf>
+    <paragraf>
+      <Paragraf rdf:about="http://rinfo.lagrummet.se/publ/vervafs/2007:1#p_2">
+        <paragrafnummer>2</paragrafnummer>
+      </Paragraf>
+    </paragraf>
+    <paragraf>
+      <Paragraf rdf:about="http://rinfo.lagrummet.se/publ/vervafs/2007:1#p_3">
+        <paragrafnummer>3</paragrafnummer>
+      </Paragraf>
+    </paragraf>
+
+  </Myndighetsforeskrift>
+
+</rdf:RDF>

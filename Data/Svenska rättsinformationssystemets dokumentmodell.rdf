@@ -1,0 +1,1474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+	xmlns="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"
+	xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+	xmlns:protege="http://protege.stanford.edu/plugins/owl/protege#"
+	xmlns:foaf="http://xmlns.com/foaf/0.1/"
+	xmlns:dct="http://purl.org/dc/terms/"
+	xmlns:bibo="http://purl.org/ontology/bibo/"
+	xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+	xmlns:owl="http://www.w3.org/2002/07/owl#"
+	xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+	xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+<owl:Ontology rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#">
+	<dct:title xml:lang="sv">Svenska rättsinformationssystemets dokumentmodell</dct:title>
+	<dct:description xml:lang="sv">En begreppsmodell som beskriver de dokumenttyper,
+                    egenskaper och andra relaterade ting som ingår i det
+                    svenska rättsinformationssystemet.</dct:description>
+	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2006-12-05</dct:created>
+	<dct:updated rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2010-05-19</dct:updated>
+	<owl:versionInfo>0.6</owl:versionInfo>
+	<owl:imports rdf:resource="http://purl.org/dc/terms/"/>
+	<owl:imports rdf:resource="http://www.w3.org/2004/02/skos/core#"/>
+	<owl:imports rdf:resource="http://xmlns.com/foaf/0.1/"/>
+</owl:Ontology>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument">
+	<rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Document"/>
+	<rdfs:label xml:lang="sv">Rättsinformationsdokument</rdfs:label>
+	<rdfs:label xml:lang="en">Swedish Legal Document</rdfs:label>
+	<rdfs:comment xml:lang="sv">Post eller dokument i det svenska offentliga rättsinformationssystemet.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x1">
+	<owl:onProperty rdf:resource="http://purl.org/dc/terms/title"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x1"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x2">
+	<owl:onProperty rdf:resource="http://purl.org/dc/terms/issued"/>
+	<owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x2"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x3">
+	<owl:onProperty rdf:resource="http://purl.org/dc/terms/publisher"/>
+	<owl:allValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x3"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x4">
+	<owl:onProperty rdf:resource="http://purl.org/dc/terms/identifier"/>
+	<owl:someValuesFrom rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x4"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bilaga">
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<rdfs:label xml:lang="sv">Bilaga</rdfs:label>
+	<rdfs:comment xml:lang="sv">En generell bilaga till ett rättsinformationsdokument.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+	<owl:inverseOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bilagaTill"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bilagaTill">
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+	<rdfs:label xml:lang="sv">Bilaga till</rdfs:label>
+	<owl:inverseOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bilaga"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#publikationssamling">
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isPartOf"/>
+	<rdfs:label xml:lang="sv">Publikationssamling</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anger medlemsskap i någon form av (rättsinformationsspecifik) publikationssamling, såsom en författningssamling eller utredningsserie.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Årsutgåva</rdfs:label>
+	<rdfs:comment xml:lang="sv">En viss årsutgåva av någon publikation. Exempelvis "2005".</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Löpnummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Löpnummer i någon publikation (exempelvis "57").</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#sidnummer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<owl:equivalentProperty rdf:resource="http://purl.org/ontology/bibo/pageStart"/>
+	<rdfs:label xml:lang="sv">Sidnummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Det inledande sidnumret för dokumentet i någon publikation. Exempelvis "523".</rdfs:comment>
+</owl:DatatypeProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x6">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x7">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat"/>
+			<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x5">
+	<owl:unionOf rdf:nodeID="node18lip7t11x6"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#sidnummer">
+	<rdfs:domain rdf:nodeID="node18lip7t11x5"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Författningssamlingsdokument</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett dokument som ingår i någon författningssamling.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x8">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x8"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x9">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x9"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x10">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#sidnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x10"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x11">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bihangsnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x11"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x12">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#forfattningssamling"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x12"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x13">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utkomFranTryck"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x13"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x14">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#overgangsbestammelse"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x14"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#forfattningssamling">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#publikationssamling"/>
+	<rdfs:label xml:lang="sv">Författningssamling</rdfs:label>
+	<rdfs:comment xml:lang="sv">Författningssamlingen som dokumentet publiceras i.</rdfs:comment>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningssamling"/>
+</owl:ObjectProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utkomFranTryck">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/issued"/>
+	<rdfs:label xml:lang="sv">Utkom från trycket</rdfs:label>
+	<rdfs:comment xml:lang="sv">Datum då dokumentet utkom från trycket.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bihangsnummer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Bihangsnummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Nummer på det bihang som dokumentet återfinns i. Exempelvis "40".</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Beslutande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till beslutande (signent/undertecknare) av dokumentet.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#foredragande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Föredragande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till dokumentets föredragande (kontrasignent).</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bemyndigande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Bemyndigande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till en bemyndigande rättsgrund som rättsregeldokumentet grundar sig på.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x15">
+	<rdfs:label xml:lang="sv">Bemyndigar</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bemyndigande">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x15"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#genomforDirektiv">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Genomför direktiv</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till EU-direktiv som helt eller delvis genomförs med denna författning.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x16">
+	<rdfs:label xml:lang="sv">Genomförs av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#genomforDirektiv">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x16"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kompletterarForordning">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Kompletterar förordning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till EU-förordning som denna författning kompletterar.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x17">
+	<rdfs:label xml:lang="sv">Kompletteras av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kompletterarForordning">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x17"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#andrar">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Ändrar</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till något som ändras, t.ex. en förordning eller en del därav (såsom rubrik, kapitel, lagparagraf).</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x18">
+	<rdfs:label xml:lang="sv">Ändras av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#andrar">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x18"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ersatter">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#andrar"/>
+	<owl:equivalentProperty rdf:resource="http://purl.org/dc/terms/replaces"/>
+	<rdfs:label xml:lang="sv">Ersätter</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anger något som ersätts av denna resurs, t.ex. en förordning eller en del därav (såsom rubrik, kapitel, lagparagraf).</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x19">
+	<rdfs:label xml:lang="sv">Ersätts av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ersatter">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x19"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#inforsI">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#andrar"/>
+	<rdfs:label xml:lang="sv">Införs i</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anger att innehållet som denna resurs representerar införs i t.ex. en förordning.</rdfs:comment>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#upphaver">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#andrar"/>
+	<rdfs:label xml:lang="sv">Upphäver</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till något som upphävs, t.ex. en förordning eller en del därav (såsom rubrik, kapitel, lagparagraf).</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x20">
+	<rdfs:label xml:lang="sv">Upphävd av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#upphaver">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x20"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#forarbete">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/references"/>
+	<rdfs:label xml:lang="sv">Förarbete</rdfs:label>
+	<rdfs:comment xml:lang="sv">Relaterat förarbete till en författning.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x21">
+	<rdfs:label xml:lang="sv">Förarbete till</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#forarbete">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x21"/>
+</rdf:Description>
+<rdf:Property rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradanderegel">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Ikraftträdanderegel</rdfs:label>
+	<rdfs:comment xml:lang="sv">En bestämmelse som anger om, när och hur författningen träder ikraft.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<protege:abstract>true</protege:abstract>
+</rdf:Property>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradandedatum">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradanderegel"/>
+	<rdfs:label xml:lang="sv">Ikraftträdandedatum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Datum då författningen träder ikraft.</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradandeanvisning">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradanderegel"/>
+	<rdfs:label xml:lang="sv">Ikraftträdandeanvisning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till anvisning som anger hur författningen träder ikraft.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Property rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradandetext">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradanderegel"/>
+	<rdfs:label xml:lang="sv">Ikraftträdandetext</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anvisning som anger hur författningen träder ikraft - exempelvis "Träder ikraft den dagen regeringen bestämmer.".</rdfs:comment>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</rdf:Property>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradandelagrum">
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradanderegel"/>
+	<rdfs:label xml:lang="sv">Ikraftträdandelagrum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Hänvisning till lagrum (promulgationslag) som anger när och hur författningen träder ikraft.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x22">
+	<rdfs:label xml:lang="sv">Bestämmer ikraftträdande för</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradandelagrum">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x22"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Description>
+<rdf:Property rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#overgangsbestammelse">
+	<rdfs:label xml:lang="sv">Övergångsbestämmelse</rdfs:label>
+	<rdfs:comment xml:lang="sv">Information om övergångsbestämmelser.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Property>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#overgangsbestammelsehanvisning">
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#overgangsbestammelse"/>
+	<rdfs:label xml:lang="sv">Övergångsbestämmelsehänvisning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till något som beskriver övergångsbestämmelser.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<rdf:Property rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#overgangsbestammelsetext">
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#overgangsbestammelse"/>
+	<rdfs:label xml:lang="sv">Övergångsbestämmelsetext</rdfs:label>
+	<rdfs:comment xml:lang="sv">Text som beskriver övergångsbestämmelser.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Property>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutsdatum">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Beslutsdatum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Datum då innehållet i dokumentet beslutades.</rdfs:comment>
+</owl:DatatypeProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x24">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Tillkannagivande"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x25">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Cirkular"/>
+			<rdf:rest>
+				<rdf:Description rdf:nodeID="node18lip7t11x26">
+					<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Myndighetsforeskrift"/>
+					<rdf:rest>
+						<rdf:Description rdf:nodeID="node18lip7t11x27">
+							<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+							<rdf:rest>
+								<rdf:Description rdf:nodeID="node18lip7t11x28">
+									<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad"/>
+									<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+								</rdf:Description>
+							</rdf:rest>
+						</rdf:Description>
+					</rdf:rest>
+				</rdf:Description>
+			</rdf:rest>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x23">
+	<owl:unionOf rdf:nodeID="node18lip7t11x24"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutsdatum">
+	<rdfs:domain rdf:nodeID="node18lip7t11x23"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	<owl:equivalentProperty>
+		<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utfardandedatum">
+			<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+			<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+			<rdfs:label xml:lang="sv">Utfärdandedatum</rdfs:label>
+			<rdfs:comment xml:lang="sv">Datum då författningen utfärdades. Motsvarar beslutsdatum.</rdfs:comment>
+		</owl:DatatypeProperty>
+	</owl:equivalentProperty>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x30">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Lag"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x31">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forordning"/>
+			<rdf:rest>
+				<rdf:Description rdf:nodeID="node18lip7t11x32">
+					<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Brev"/>
+					<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+				</rdf:Description>
+			</rdf:rest>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x29">
+	<owl:unionOf rdf:nodeID="node18lip7t11x30"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utfardandedatum">
+	<rdfs:domain rdf:nodeID="node18lip7t11x29"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#omtryckAv">
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isVersionOf"/>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdfs:label xml:lang="sv">Omtryck av</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till vad omtrycket avser, t.ex. en förordning.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x33">
+	<rdfs:label xml:lang="sv">Har omtryck</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#omtryckAv">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x33"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Författning</rdfs:label>
+	<skos:altLabel xml:lang="sv">Kungörelse</skos:altLabel>
+	<rdfs:comment xml:lang="sv">En text som innehåller generella, bindande rättsregler (såsom lag, förordning eller föreskrift)  utgiven i någon författningssamling.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x34">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutadAv"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x34"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x35">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ikrafttradanderegel"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x35"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutadAv">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Beslutad av</rdfs:label>
+	<rdfs:comment xml:lang="sv">Referens till officiell beslutstagare.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x37">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x38">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande"/>
+			<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x36">
+	<owl:unionOf rdf:nodeID="node18lip7t11x37"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutadAv">
+	<rdfs:domain rdf:nodeID="node18lip7t11x36"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Agent"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Lag">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Lag</rdfs:label>
+	<rdfs:comment xml:lang="sv">En författning av typen lag (d.v.s. antagen av riksdagen).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x39">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utfardandedatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Lag">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x39"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x40">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#forarbete"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Lag">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x40"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Grundlag">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Grundlag</rdfs:label>
+	<rdfs:comment xml:lang="sv"></rdfs:comment>
+	<rdfs:comment xml:lang="sv">En författning av typen grundlag (d.v.s. antagen av två på varandra följande riksdagar).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Lag"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x41">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utfardandedatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Grundlag">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x41"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forordning">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Förordning</rdfs:label>
+	<rdfs:comment xml:lang="sv">En författning av typen förordning (d.v.s. antagen av regeringen).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x42">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utfardandedatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forordning">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x42"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x43">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bemyndigande"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forordning">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x43"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Myndighetsforeskrift">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Myndighetsföreskrift</rdfs:label>
+	<rdfs:comment xml:lang="sv">En föreskrift utgiven i någon författningssamling.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x44">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#bemyndigande"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Myndighetsforeskrift">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x44"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x45">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutsdatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Myndighetsforeskrift">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x45"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Tillkannagivande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Tillkännagivande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Tillkännagivanden används när det finns behov av att upplysa
+                 en större krets om faktiska förhållanden.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x46">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutsdatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Tillkannagivande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x46"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Cirkular">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Cirkulär</rdfs:label>
+	<rdfs:comment xml:lang="sv">Dokument för att upplysa en bestämd krets (företrädesvis
+                    myndigheter) om innehållet i vissa normer eller att
+                    informera addressaterna om förhållanden av intresse.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x47">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutsdatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Cirkular">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x47"/>
+</rdf:Description>
+<owl:DeprecatedClass rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Brev">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Brev</rdfs:label>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:DeprecatedClass>
+<owl:Restriction rdf:nodeID="node18lip7t11x48">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utfardandedatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Brev">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x48"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Konsoliderad grundförfattning</rdfs:label>
+	<rdfs:comment xml:lang="sv">En konsolidering av en grundförfattning i någon författningssamling, i lydelse med införda ändringar, fram till en viss tidpunkt. Sammanställningen kan utgå från en tidigare konsoliderad version eller från grundförfattningen.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x49">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsoliderar"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x49"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x50">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsolideringsunderlag"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x50"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsoliderar">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/isVersionOf"/>
+	<rdfs:label xml:lang="sv">Konsoliderar</rdfs:label>
+	<rdfs:comment xml:lang="sv">Information om vilket ursprungsdokument som konsolideras.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x51">
+	<rdfs:label xml:lang="sv">Konsoliderad av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsoliderar">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x51"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsolideringsunderlag">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Konsolideringsunderlag</rdfs:label>
+	<rdfs:comment xml:lang="sv">Information om vilka dokument, inklusive ursprungsdokumentet,
+                    som ingått i konsolideringsunderlaget. Kan t.ex. utgå från en
+                    tidigare konsoliderad version. Samling med referenser till
+                    dokument.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x53">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x54">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning"/>
+			<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x52">
+	<owl:unionOf rdf:nodeID="node18lip7t11x53"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsolideringsunderlag">
+	<rdfs:range rdf:nodeID="node18lip7t11x52"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x55">
+	<rdfs:label xml:lang="sv">Konsolideringsunderlag för</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#konsolideringsunderlag">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x55"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Allmänna råd</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett dokument med allmänna, icke-bindande, råd om tillämpningen av bindande regler i föreskrift, förordning eller lag.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x56">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x56"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x57">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x57"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x58">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#forfattningssamling"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x58"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x59">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#allmannaRadSerie"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x59"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x60">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utkomFranTryck"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x60"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#allmannaRadSerie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#publikationssamling"/>
+	<rdfs:label xml:lang="sv">Allmänna råd-serie</rdfs:label>
+	<rdfs:comment xml:lang="sv">Den serie med allmänna råd som detta dokument ingår i.</rdfs:comment>
+	<rdfs:range>
+		<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRadSerie">
+			<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Publikationssamling"/>
+			<rdfs:label xml:lang="sv">Allmänna råd-serie</rdfs:label>
+			<rdfs:comment xml:lang="sv">En serie med allmänna råd, utgiven av någon myndighet</rdfs:comment>
+			<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+		</owl:Class>
+	</rdfs:range>
+</owl:ObjectProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRadText">
+	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/DocumentPart"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Allmänna råd-text</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett större eller mindre sammanhållet textavsnitt som innehåller ett eller flera allmänna råd.</rdfs:comment>
+</owl:Class>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#allmannaRadText">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<rdfs:label xml:lang="sv">Allmänna råd-text</rdfs:label>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x62">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x63">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Myndighetsforeskrift"/>
+			<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x61">
+	<owl:unionOf rdf:nodeID="node18lip7t11x62"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#allmannaRadText">
+	<rdfs:domain rdf:nodeID="node18lip7t11x61"/>
+	<rdfs:comment xml:lang="sv">Ett textavsnitt med allmänna råd som ingår i dokumentet</rdfs:comment>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRadText"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#radTill">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/references"/>
+	<rdfs:label xml:lang="sv">Råd till</rdfs:label>
+	<rdfs:comment xml:lang="sv">Den författning eller paragraf i författning som detta råd berör.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x65">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRadText"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x66">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#AllmannaRad"/>
+			<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x64">
+	<owl:unionOf rdf:nodeID="node18lip7t11x65"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#radTill">
+	<rdfs:domain rdf:nodeID="node18lip7t11x64"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x68">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x69">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kapitel"/>
+			<rdf:rest>
+				<rdf:Description rdf:nodeID="node18lip7t11x70">
+					<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Paragraf"/>
+					<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+				</rdf:Description>
+			</rdf:rest>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x67">
+	<owl:unionOf rdf:nodeID="node18lip7t11x68"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#radTill">
+	<rdfs:range rdf:nodeID="node18lip7t11x67"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattelseblad">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Rättelseblad</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett rättelse av en författning utgiven i någon författningssamling.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x71">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattningAv"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattelseblad">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x71"/>
+</rdf:Description>
+<rdf:Property rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattelsebeskrivning">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/description"/>
+	<rdfs:label xml:lang="sv">Rättelsebeskrivning</rdfs:label>
+	<rdfs:comment xml:lang="sv">En beskrivning av innehållet i ett rättelseblad.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattelseblad"/>
+</rdf:Property>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattningAv">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Rättning av</rdfs:label>
+	<rdfs:comment xml:lang="sv">Rättning av den författning som ett rättelseblad hänför sig till.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattelseblad"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x72">
+	<rdfs:label xml:lang="sv">Rättas av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattningAv">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x72"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Förarbete</rdfs:label>
+	<rdfs:comment xml:lang="sv">Förarbeten är ett samlingsnamn för till exempel utredningar, propositioner och betänkanden som tas fram innan riksdagen beslutar om en ny lag.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x73">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x73"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x74">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x74"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x75">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#beslutsdatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x75"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#foreslarAndringAv">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/references"/>
+	<rdfs:label xml:lang="sv">Föreslår ändring av</rdfs:label>
+	<rdfs:comment xml:lang="sv">Den författning som aktuellt dokument föreslår ändring av.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x76">
+	<rdfs:label xml:lang="sv">Föreslås att ändras av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#foreslarAndringAv">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x76"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utgarFran">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/references"/>
+	<rdfs:label xml:lang="sv">Utgår från</rdfs:label>
+	<rdfs:comment xml:lang="sv">Utgår från ett förarbete tidigare i lagstiftningskedjan.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x77">
+	<rdfs:label xml:lang="sv">Är utgångspunkt för</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utgarFran">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x77"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Kommittédirektiv</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett kommittédirektiv.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x78">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#departement"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x78"/>
+</rdf:Description>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#avkravtAvrapporteringsdatum">
+	<rdfs:label xml:lang="sv">Avkrävt avrapporteringsdatum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Det datum en kommitté ska del- eller slutredovisa sitt uppdrag, enligt kommittédirektivet.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:DatatypeProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#foreslarUtredningAvAndringI">
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/references"/>
+	<rdfs:label xml:lang="sv">Föreslår utredning av ändring i</rdfs:label>
+	<rdfs:comment xml:lang="sv">Den författning som aktuellt dokument föreslår utredning av ändring i.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x79">
+	<rdfs:label xml:lang="sv">Föreslås att ändringsutredas av</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#foreslarUtredningAvAndringI">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x79"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#tillaggTill">
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/references"/>
+	<rdfs:label xml:lang="sv">Tillägg till</rdfs:label>
+	<rdfs:comment xml:lang="sv">Den kommitté som tilläget riktar sig till.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#departement">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Departement</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anger ansvarigt departement.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x81">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Lag"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x82">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forordning"/>
+			<rdf:rest>
+				<rdf:Description rdf:nodeID="node18lip7t11x83">
+					<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsbetankande"/>
+					<rdf:rest>
+						<rdf:Description rdf:nodeID="node18lip7t11x84">
+							<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv"/>
+							<rdf:rest>
+								<rdf:Description rdf:nodeID="node18lip7t11x85">
+									<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Proposition"/>
+									<rdf:rest>
+										<rdf:Description rdf:nodeID="node18lip7t11x86">
+											<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Skrivelse"/>
+											<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+										</rdf:Description>
+									</rdf:rest>
+								</rdf:Description>
+							</rdf:rest>
+						</rdf:Description>
+					</rdf:rest>
+				</rdf:Description>
+			</rdf:rest>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x80">
+	<owl:unionOf rdf:nodeID="node18lip7t11x81"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#departement">
+	<rdfs:domain rdf:nodeID="node18lip7t11x80"/>
+	<rdfs:range rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forordningsmotiv">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Förordningsmotiv</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett förarbete till en förordning, publicerad i serien Regeringens förordningsmotiv. Anger bakgrund och hur ändamålet ska tolkas.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+</owl:Class>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsbetankande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Utredningsbetänkande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett utredningsbetänkande, vanligen utgivet i Departementsserien (Ds) eller i serien Statens offentliga utredningar (SOU).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x87">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utgarFran"/>
+	<owl:allValuesFrom rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kommittedirektiv"/>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsbetankande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x87"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x88">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utrSerie"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsbetankande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x88"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utrSerie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#publikationssamling"/>
+	<rdfs:label xml:lang="sv">Utredningsserie</rdfs:label>
+	<rdfs:comment xml:lang="sv">Serie där utredningen publiceras. T.ex. Ds, SOU.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsbetankande"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsserie"/>
+</owl:ObjectProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Proposition">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Proposition</rdfs:label>
+	<rdfs:comment xml:lang="sv">En proposition till riksdagen, vanligtvis gällande en lagändring.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forarbete"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x89">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#utgarFran"/>
+	<owl:allValuesFrom rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsbetankande"/>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Proposition">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x89"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Skrivelse">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Skrivelse</rdfs:label>
+	<rdfs:comment xml:lang="sv">En skrivelse från regeringen eller riksdagen, med information om t.ex. ett beslut.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x90">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Skrivelse">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x90"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x91">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Skrivelse">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x91"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Vägledande avgörande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Avgöranden från högre domstolar och vissa myndigheter där avgörandet är gjort i sista instans.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x92">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#avgorandedatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x92"/>
+</rdf:Description>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#avgorandedatum">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Avgörandedatum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Det datum ett beslut eller domslut avkunnades.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lagrum">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Lagrum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Hänvisning till något lagrum i SFS eller annan författningssamling som detta avgörande stödjer sig på.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande"/>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x93">
+	<rdfs:label xml:lang="sv">Är lagrum för</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lagrum">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x93"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#praxishanvisning">
+	<rdfs:label xml:lang="sv">Praxishänvisning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Hänvisning till praxis på ett område, uttryckt genom något beslut.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattsfallshanvisning">
+	<rdfs:label xml:lang="sv">Rättsfallshänvisning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Hänvisning i aktuellt avgörande till något rättsfall som har beaktats.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#praxishanvisning"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#avgorandehanvisning">
+	<rdfs:label xml:lang="sv">Avgörandehänvisning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Hänvisning i aktuellt avgörande till något myndighetsavgörande som har beaktats.</rdfs:comment>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#praxishanvisning"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeMyndighetsavgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:ObjectProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeMyndighetsavgorande">
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande"/>
+	<rdfs:label xml:lang="sv">Vägledande myndighetsavgörande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett dokument som uttrycker ett vägledande avgörande i förvaltningsärenden från central statlig myndighet.</rdfs:comment>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x94">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#diarienummer"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeMyndighetsavgorande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x94"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</rdf:Description>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#diarienummer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:label xml:lang="sv">Diarienummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Diarienummer för ett ärende.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeMyndighetsavgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:DatatypeProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Vägledande domstolsavgörande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Uppgifter om vägledande avgöranden från domstolar (de allmänna, förvaltningsdomstolarna, eller någon av specialdomstolarna). Observera att detta inte är samma sak som ett rättsfallsreferat.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeAvgorande"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x95">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#malnummer"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x95"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x96">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#domsnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x96"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x97">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#domstolsavdelning"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x97"/>
+</rdf:Description>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#malnummer">
+	<rdfs:label xml:lang="sv">Målnummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Det målnummer som domstolen tilldelat målet vid anhängiggörandet.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#domsnummer">
+	<rdfs:label xml:lang="sv">Domsnummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Det domsnummer som domstolen tilldelat målet vid anhängiggörandet.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#domstolsavdelning">
+	<rdfs:label xml:lang="sv">Domstolsavdelning</rdfs:label>
+	<rdfs:comment xml:lang="sv">Domstolsavdelning som den är angiven i det ursprungliga domslutet.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:DatatypeProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:label xml:lang="sv">Rättsfallsrapport</rdfs:label>
+	<rdfs:comment xml:lang="sv">Rapporteringar/sammanfattningar av rättsfall.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x98">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattsfallspublikation"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x98"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x99">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x99"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x100">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x100"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#rattsfallspublikation">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#publikationssamling"/>
+	<rdfs:label xml:lang="sv">Rättsfallspublikation</rdfs:label>
+	<rdfs:comment xml:lang="sv">Den publikation som rättsfallet publiceras i.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallspublikation"/>
+</owl:ObjectProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#referatAvDomstolsavgorande">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Referat av domstolsavgörande</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett domstolsavgörande som detta är ett referat av.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#VagledandeDomstolsavgorande"/>
+</owl:ObjectProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Rättsfallsreferat</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett referat av ett eller flera domslut inklusive tidigare domslut i instanskedjan.</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x101">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#referatAvDomstolsavgorande"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x101"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x102">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#referatserie"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x102"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x103">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#sidnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x103"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x104">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#referatrubrik"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x104"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x105">
+	<owl:onProperty rdf:resource="http://purl.org/dc/terms/bibliographicCitation"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+	<rdfs:comment xml:lang="sv">En hänvisning av den typ som förekommer i källförteckningar/bibliografier, exv "NJA 2009 s. 695".</rdfs:comment>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x105"/>
+</rdf:Description>
+<rdf:Property rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#referatrubrik">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/title"/>
+	<rdfs:label xml:lang="sv">Referatrubrik</rdfs:label>
+	<rdfs:comment xml:lang="sv">Beskrivande rubrik för ett rättsfallsreferat.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat"/>
+</rdf:Property>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#referatserie">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Referatserie</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anger vilken referatserie som referatet eventuellt tillhör.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsreferat"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:DatatypeProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsnotis">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Rättsfallsnotis</rdfs:label>
+	<rdfs:comment xml:lang="sv">En sammanfattning i notisform av ett domslut (ofta inklusive tidigare domslut i instanskedjan).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsrapport"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x106">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#notisserie"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsnotis">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x106"/>
+</rdf:Description>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#notisserie">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Notisserie</rdfs:label>
+	<rdfs:comment xml:lang="sv">Anger vilken notisserie som notisen eventuellt tillhör.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallsnotis"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:DatatypeProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Internationell överenskommelse</rdfs:label>
+	<rdfs:comment xml:lang="sv">En internationell överenskommelse utgiven i serien Sveriges Internationella Överenskommelser (SÖ).</rdfs:comment>
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsinformationsdokument"/>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x107">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#giltigaSprak"/>
+	<owl:minCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:minCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x107"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x108">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ratificeringsdatum"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x108"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x109">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#arsutgava"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x109"/>
+</rdf:Description>
+<owl:Restriction rdf:nodeID="node18lip7t11x110">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#lopnummer"/>
+	<owl:maxCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:maxCardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x110"/>
+</rdf:Description>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#giltigaSprak">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Giltiga språk</rdfs:label>
+	<rdfs:label xml:lang="en">Authoritative languages</rdfs:label>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse"/>
+	<rdfs:comment xml:lang="sv">De språk som de giltiga texterna i en konvention är skrivna på.</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#ratificeringsdatum">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Ratificieringsdatum</rdfs:label>
+	<rdfs:comment xml:lang="sv">Datum då Sveriges rike ratificerade den internationella överenskommelsen.</rdfs:comment>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#InternationellOverenskommelse"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#date"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#celexNummer">
+	<rdfs:label xml:lang="sv">CELEX-nummer</rdfs:label>
+	<rdfs:comment xml:lang="sv">Indentifierare för ett dokument som ingår i EUR-LEX, den europeiska rättsinformationsdatabasen.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:DatatypeProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Publikationssamling">
+	<rdfs:subClassOf rdf:resource="http://purl.org/ontology/bibo/Collection"/>
+	<rdfs:label xml:lang="sv">Publikationssamling</rdfs:label>
+	<rdfs:comment xml:lang="sv">Någon slags samling (förteckning, serie) över rättsinformationspublikationer.</rdfs:comment>
+	<protege:abstract>true</protege:abstract>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:Class>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Utredningsserie">
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Publikationssamling"/>
+	<rdfs:label xml:lang="sv">Utredningsserie</rdfs:label>
+	<rdfs:comment xml:lang="sv">En serie av de rapporter som tillsatta utredningar har skrivit, som en del av lagstiftningsarbetet.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:Class>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningssamling">
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Publikationssamling"/>
+	<rdfs:label xml:lang="sv">Författningssamling</rdfs:label>
+	<rdfs:comment xml:lang="sv">En samling av lagar, förordningar eller föreskrifter, dvs texter som innehåller generella, bindande rättsregler.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:Class>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Rattsfallspublikation">
+	<rdfs:subClassOf rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Publikationssamling"/>
+	<rdfs:label xml:lang="sv">Rättsfallspublikation</rdfs:label>
+	<rdfs:comment xml:lang="sv">En ramling av rättsfallsreferat, vanligen knuten till en viss domsol eller en viss typ av domstolar.</rdfs:comment>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+</owl:Class>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kapitel">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Kapitel</rdfs:label>
+	<rdfs:comment xml:lang="sv">Ett kapitel i en svensk författning.</rdfs:comment>
+</owl:Class>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kapitelnummer">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Kapitelnummer</rdfs:label>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kapitel"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:comment xml:lang="sv">Det symboliska numret för ett kapitel i en svensk lag.</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Paragraf">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Paragraf</rdfs:label>
+	<rdfs:comment xml:lang="sv">En paragraf i en svensk författning.</rdfs:comment>
+</owl:Class>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#paragrafnummer">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Paragrafnummer</rdfs:label>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Paragraf"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+	<rdfs:comment xml:lang="sv">Det symboliska numret för en paragraf i en svensk lag.</rdfs:comment>
+</owl:DatatypeProperty>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kapitel">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<rdfs:label xml:lang="sv">Kapitel</rdfs:label>
+	<rdfs:comment xml:lang="sv">Angivelse av i författningen ingående kapitel.</rdfs:comment>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x112">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x113">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning"/>
+			<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x111">
+	<owl:unionOf rdf:nodeID="node18lip7t11x112"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kapitel">
+	<rdfs:domain rdf:nodeID="node18lip7t11x111"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kapitel"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x114">
+	<rdfs:label xml:lang="sv">Kapitel i</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kapitel">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x114"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#paragraf">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:subPropertyOf rdf:resource="http://purl.org/dc/terms/hasPart"/>
+	<rdfs:label xml:lang="sv">Paragraf</rdfs:label>
+</owl:ObjectProperty>
+<rdf:Description rdf:nodeID="node18lip7t11x116">
+	<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#FSDokument"/>
+	<rdf:rest>
+		<rdf:Description rdf:nodeID="node18lip7t11x117">
+			<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#KonsolideradGrundforfattning"/>
+			<rdf:rest>
+				<rdf:Description rdf:nodeID="node18lip7t11x118">
+					<rdf:first rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Kapitel"/>
+					<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+				</rdf:Description>
+			</rdf:rest>
+		</rdf:Description>
+	</rdf:rest>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x115">
+	<owl:unionOf rdf:nodeID="node18lip7t11x116"/>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#paragraf">
+	<rdfs:domain rdf:nodeID="node18lip7t11x115"/>
+	<rdfs:comment xml:lang="sv">Angivelse av i författningen ingående paragraf.</rdfs:comment>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Paragraf"/>
+</rdf:Description>
+<rdf:Description rdf:nodeID="node18lip7t11x119">
+	<rdfs:label xml:lang="sv">Paragraf i</rdfs:label>
+</rdf:Description>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#paragraf">
+	<owl:inverseOf rdf:nodeID="node18lip7t11x119"/>
+</rdf:Description>
+<owl:Class rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningsreferens">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Författningsreferens</rdfs:label>
+	<rdfs:comment xml:lang="sv">En referens till en del av en författning. Referensen är
+    inprecis i det att den som skapar referensen kan avse ett annat
+    paragrafinnehåll än det som existerar i grundförfattningen (t.ex. den
+    version som senare påförts i en ändringsförfattning).</rdfs:comment>
+</owl:Class>
+<owl:Restriction rdf:nodeID="node18lip7t11x120">
+	<owl:onProperty rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#angerGrundforfattning"/>
+	<owl:cardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</owl:cardinality>
+</owl:Restriction>
+<rdf:Description rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningsreferens">
+	<rdfs:subClassOf rdf:nodeID="node18lip7t11x120"/>
+</rdf:Description>
+<owl:ObjectProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#angerGrundforfattning">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Anger grundförfattning</rdfs:label>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningsreferens"/>
+	<rdfs:range rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattning"/>
+</owl:ObjectProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#angerKapitelnummer">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#FunctionalProperty"/>
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Anger kapitelnummer</rdfs:label>
+	<rdfs:seeAlso rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#kapitelnummer"/>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningsreferens"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:DatatypeProperty>
+<owl:DatatypeProperty rdf:about="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#angerParagrafnummer">
+	<rdfs:isDefinedBy rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#"/>
+	<rdfs:label xml:lang="sv">Anger paragrafnummer</rdfs:label>
+	<rdfs:seeAlso rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#paragrafnummer"/>
+	<rdfs:domain rdf:resource="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#Forfattningsreferens"/>
+	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
+</owl:DatatypeProperty>
+
+</rdf:RDF>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns="http://rinfo.lagrummet.se/ns/2008/11/rinfo/publ#">
+
+    <Myndighetsforeskrift rdf:about="http://rinfo.lagrummet.se/publ/bfs/2007:4">
+
+        <forfattningssamling rdf:resource="http://rinfo.lagrummet.se/serie/fs/bfs"/>
+        <arsutgava>2007</arsutgava>
+	<lopnummer>4</lopnummer>
+	<dct:identifier>BFS 2007:4</dct:identifier>
+        <dct:title xml:lang="sv">Boverkets föreskrifter och allmänna råd om
+            energideklaration för byggnader</dct:title>
+
+        <!-- tidsaspekter -->
+        <beslutsdatum rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-02-16</beslutsdatum>
+        <ikrafttradandedatum rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-03-01</ikrafttradandedatum>
+        <utkomFranTryck rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2007-02-20</utkomFranTryck>
+
+        <!-- ursprung -->
+        <dct:publisher rdf:resource="http://rinfo.lagrummet.se/org/boverket"/>
+        <beslutadAv rdf:resource="http://rinfo.lagrummet.se/org/boverket"/>
+
+        <!-- dokumentkopplingar -->
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>5</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>6</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>7</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>8</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>9</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>11</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>12</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+        <bemyndigande>
+            <Forfattningsreferens>
+                <angerGrundforfattning rdf:resource="http://rinfo.lagrummet.se/publ/sfs/2006:1592"/>
+                <angerParagrafnummer>13</angerParagrafnummer>
+            </Forfattningsreferens>
+        </bemyndigande>
+
+        <!-- Information om bilagor som i detta fall är en del av dokumentet -->
+        <bilaga>
+            <rdf:Description rdf:about="http://rinfo.lagrummet.se/publ/livsfs/2007:4#bilaga_1">
+                <dct:title>Bilaga 1</dct:title>
+            </rdf:Description>
+        </bilaga>
+        
+    </Myndighetsforeskrift>
+
+</rdf:RDF>
