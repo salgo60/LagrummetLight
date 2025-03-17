@@ -81,7 +81,7 @@ Kostnaden av dålig data för Rättsinformation enl. [DS 1998:10](https://www.re
 <img width="1280" alt="image" src="https://user-images.githubusercontent.com/14206509/182185522-d9e9a62b-631b-43ad-b019-e3dc84dc6760.png">
 
 * **2022 dec** [Fråga Regeringskansliet hur går det med SFS 1999:175](https://github.com/salgo60/LagrummetLight/issues/3) - status 
-  * dom visste inte att dom utreder det utan skickar den vidare till Domstilsverket
+  * dom visste inte att dom utreder det utan skickar den vidare till Domstolsverket
     * återkommer efter en vecka då Domstolsverket förklarat för dom att Regeringskansliet äger frågan
       * Regeringskansliet svarar att dom efter 6 års funderade och 22 år in i projektet inte vet när dom kommer att leverera nästa steg 
       * Regeringskansliet har inte ett **ärendenummer/projektnummer** dom kan dela med mig utan kallar det "**internt arbete**"
